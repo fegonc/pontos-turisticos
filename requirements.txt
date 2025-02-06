@@ -1,0 +1,12 @@
+asgiref
+dj-database-url
+dj-static
+Django
+django-filter
+djangorestframework
+Pillow
+python-decouple
+pytz
+sqlparse
+static3
+tzdata
