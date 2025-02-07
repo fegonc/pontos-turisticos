@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['https://pontos-turisticos-16ed111bd97d.herokuapp.com', 'localhost:8000']
+ALLOWED_HOSTS = ['https://pontos-turisticos-16ed111bd97d.herokuapp.com', '127:0.0.1']
 
 
 # Application definition
